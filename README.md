@@ -116,3 +116,96 @@
 
     A for-of loop cannot be used directly with objects because objects are not inherently iterable. However, you can use a for-of loop in conjunction with Object.keys(), Object.values(), or Object.entries() to iterate over an object’s keys, values, or key-value pairs.
 
+
+
+                                            OBJECT
+
+
+
+1. What is an object in JavaScript?
+
+    An object is a complex data structure that allows you to store collections of data. It is used to group related data and functionality together, consisting of properties (key-value pairs) and methods (functions).
+
+2. How do you create an object in JavaScript?
+
+    You can create an object using object literals, the new Object() syntax, or by using constructor functions and classes.
+
+3. What is an object literal?
+
+    An object literal is a comma-separated list of key-value pairs wrapped in curly braces. It is the most common way to create objects.
+
+4. How do you access object properties?
+
+    You can access object properties using dot notation or bracket notation. Dot notation is typically used when you know the exact name of the property, while bracket notation is useful when the property name is dynamic or not a valid identifier.
+
+5. How do you add or modify properties in an object?
+
+    You can add or modify properties using dot notation or bracket notation. Assign the new value to the property, whether it exists or not.
+
+6. How do you delete properties from an object?
+
+    You can delete properties using the delete operator, which removes the property from the object.
+
+7. How do objects in JavaScript differ from primitive data types?
+
+    Objects in JavaScript are mutable and can store multiple values as properties and methods, while primitive data types (like numbers, strings, and booleans) are immutable and represent a single value.
+
+8. What is the role of constructors in JavaScript object creation?
+
+    Constructors are functions used to create and initialize objects. When called with the new keyword, a constructor function creates a new object and assigns properties and methods to it based on the parameters passed.
+
+9. What is prototype inheritance in JavaScript?
+
+    Prototype inheritance allows JavaScript objects to inherit properties and methods from another object. Every JavaScript object has a prototype, and objects can access properties and methods defined on their prototype chain.
+
+10. How does the this keyword function in JavaScript objects?
+
+    The this keyword refers to the object on which a method is called. It dynamically binds to the context of the current execution, allowing methods to access and manipulate the object’s properties.
+
+11. How does object destructuring work in JavaScript?
+
+    Object destructuring is a syntax that allows you to extract properties from an object and assign them to variables in a single statement. It provides a concise way to unpack values from objects and can improve code readability.
+
+
+
+                                                    JSON
+
+
+1. What is JSON and why is it used?
+
+    JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is widely used for transmitting data between a server and web application as a text string.
+
+2. How do you create a JSON object?
+
+    You create a JSON object by enclosing key-value pairs within curly braces {}, where keys are always strings and values can be any valid JSON data type (string, number, object, array, boolean, or null).
+
+3. How do you access values in a JSON object?
+
+    You can access values in a JSON object using either dot notation (jsonData.key) or bracket notation (jsonData['key']). Dot notation is used when you know the key beforehand, while bracket notation is useful when the key is dynamic or stored in a variable.
+
+4. How do you loop through a JSON object in JavaScript?
+
+    You can loop through a JSON object using a for...in loop in JavaScript. This allows you to iterate over the keys of the object and access each corresponding value.
+
+    Example:
+
+        for (let key in jsonData) {
+            console.log(key + ": " + jsonData[key]);
+        }
+5. How do you convert a JSON string to a JavaScript object?
+
+    To convert a JSON-formatted string into a JavaScript object, you use the JSON.parse() method. This method takes a JSON string as input and returns a JavaScript object.
+
+    Example:
+
+        let jsonString = '{"name": "John", "age": 30}';
+        let jsonObject = JSON.parse(jsonString);
+        console.log(jsonObject.name); 
+
+6. What is the difference between primitive data types and objects in JavaScript?
+
+    Primitive data types (Number, String, Boolean, null, undefined, and Symbol) are immutable and store single values, while objects are mutable and can store collections of key-value pairs. Primitives are compared by value, whereas objects are compared by reference.
+
+7. How do you clone an object in JavaScript?
+
+    To clone an object in JavaScript, you can use various methods such as the spread operator {…obj}, Object.assign({}, obj), or for a deep copy, JSON.parse(JSON.stringify(obj)). Each method has different implications based on the depth and complexity of the object.
