@@ -241,3 +241,39 @@
 6. How do you call a function?
 
     You call a function by using its name followed by parentheses, which may include arguments.
+
+
+                                            ARRAY QUESTIONS
+
+
+1. What is an array in JavaScript?
+
+    An array is a special type of object used to store multiple values in a single variable. Arrays can hold any combination of data types, including numbers, strings, objects, and even other arrays.
+
+2. How do you create an array?
+
+     You can create an array using the array literal syntax or the Array constructor.
+
+3. What is the array literal syntax?
+
+    The array literal syntax uses square brackets to enclose a comma-separated list of values.
+
+    Example: const fruits = [“apple”, “banana”, “cherry”];
+
+4. What is the Array constructor?
+
+    The Array constructor creates an array by using the new Array() syntax.
+
+    Example: const fruits = new Array(“apple”, “banana”, “cherry”);
+
+5. How do you access array elements?
+
+    You can access array elements using their index, which starts at 0 for the first element.
+
+    Example: const firstFruit = fruits[0];
+
+6. How do you modify array elements?
+
+    You can modify array elements by assigning a new value to a specific index.
+
+    Example: fruits[0] = “orange”;
