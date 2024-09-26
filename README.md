@@ -277,3 +277,49 @@
     You can modify array elements by assigning a new value to a specific index.
 
     Example: fruits[0] = “orange”;
+
+
+
+                                                STRING
+
+
+1. What is a string in JavaScript?
+    A string is a sequence of characters used to represent text. Strings are one of the fundamental data types in JavaScript and are enclosed in single quotes (‘), double quotes (“), or backticks (`).
+
+
+2. How do you create a string?
+    You can create a string by enclosing characters in single quotes, double quotes, or backticks.
+    Examples:
+    ‘Hello’
+    “World”
+    `Hello World`
+3. What are template literals?
+    Template literals are strings enclosed in backticks (`) and allow for embedded expressions using ${expression}. They can span multiple lines and include interpolated variables and expressions.
+    Example: `Hello, ${name}!`
+
+
+4. How do you access characters in a string?
+    You can access characters in a string using bracket notation and the index of the character. The index starts at 0 for the first character.
+    Example: str[0]
+
+
+5. How do you find the length of a string?
+    You can find the length of a string using the length property.
+    Example: str.length
+
+
+6. How do you concatenate strings?
+    You can concatenate strings using the + operator or the concat() method.
+    Example: str1 + str2 or str1.concat(str2)
+
+7. What are two string methods in JavaScript?
+
+    There are multiple string methods in JavaScript but here are the two common JS string methods are charAt(index) and indexof(substring).
+
+8. What is the string method?
+
+    A string method in JavaScript is a built-in function that let’s you perform various operations like manipulate, search, extract or format strings.
+
+9. How many methods does string have?
+
+    JS strings have over 30 methods. The exact number of methods depend on JavaScript engine and version of ECMAScript being used. New methods are also added after updates.
