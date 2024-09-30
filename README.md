@@ -323,3 +323,39 @@
 9. How many methods does string have?
 
     JS strings have over 30 methods. The exact number of methods depend on JavaScript engine and version of ECMAScript being used. New methods are also added after updates.
+
+
+
+                                                    Map 
+
+
+
+1. What is a Map in JavaScript?
+
+    A Map is a built-in object that allows you to store key-value pairs. Unlike regular objects, which only allow string or symbol keys, a Map can have keys of any type, including objects, functions, and primitives.
+
+2. How do you create a Map?
+
+    You can create a Map using the Map constructor.
+    Example: const myMap = new Map();
+
+3. How do you add key-value pairs to a Map?
+
+    You can add key-value pairs to a Map using the set() method. This method takes two arguments: the key and the value.
+    Example: myMap.set(‘key’, ‘value’);
+
+4. How do you get a value from a Map?
+
+    You can retrieve a value from a Map using the get() method. This method takes one argument, the key, and returns the associated value.
+    Example: myMap.get(‘key’);
+
+5. How do you check if a key exists in a Map?
+
+    You can check if a key exists in a Map using the has() method. This method returns true if the key exists, and false otherwise.
+    Example: myMap.has(‘key’);
+
+6. How do you remove a key-value pair from a Map?
+
+    You can remove a key-value pair from a Map using the delete() method. This method takes one argument, the key, and removes the associated key-value pair.
+    Example: myMap.delete(‘key’);
+
